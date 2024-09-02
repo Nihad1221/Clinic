@@ -14,15 +14,15 @@
       rel="stylesheet">
 
 <!-- Icon Font Stylesheet -->
-<link href="<?= DOMAIN ?>/assets/https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
       rel="stylesheet">
-<link href="<?= DOMAIN ?>/assets/https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
       rel="stylesheet">
 
 <!-- Libraries Stylesheet -->
-<link href="<?= DOMAIN ?>/assets/lib/animate/animate.min.css" rel="stylesheet">
-<link href="<?= DOMAIN ?>/assets/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-<link href="<?= DOMAIN ?>/assets/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet"/>
+<link href="<?= DOMAIN ?>/lib/animate/animate.min.css" rel="stylesheet">
+<link href="<?= DOMAIN ?>/lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+<link href="<?= DOMAIN ?>/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet"/>
 
 <!-- Customized Bootstrap Stylesheet -->
 <link href="<?= DOMAIN ?>/assets/css/bootstrap.min.css" rel="stylesheet">

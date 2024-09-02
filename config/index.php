@@ -1,2 +1,2 @@
 <?php
-const DOMAIN='http://localhost/Clinic/';
+const DOMAIN='http://localhost/ders1/clinic';
