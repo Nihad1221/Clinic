@@ -12,6 +12,7 @@ include_once './config/index.php';
 </head>
 
 <body>
+    <input type="hidden" id="rootUrl" value="<?= DOMAIN ?>">
 <?php
 include_once 'views/include/header.php';
 
@@ -27,6 +28,7 @@ include_once 'views/include/footer.php';
 include_once 'views/include/js.php';
 ?>
 
+<script src="<?= DOMAIN ?>/assets/js/appointment.js"></script>
 </body>
 
 </html>

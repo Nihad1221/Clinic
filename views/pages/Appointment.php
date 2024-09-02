@@ -28,13 +28,15 @@
             </div>
             <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
                 <div class="bg-light rounded h-100 d-flex align-items-center p-5">
-                    <form>
+                    <form action="" method="post" onsubmit="return false">
                         <div class="row g-3">
                             <div class="col-12 col-sm-6">
-                                <input type="text" class="form-control border-0" placeholder="Your Name" style="height: 55px;">
+                                <input type="text" class="form-control border-0" id="name" placeholder="Your Name" style="height: 55px;">
+                                <small class="text-danger errors name-error"></small>
                             </div>
                             <div class="col-12 col-sm-6">
-                                <input type="email" class="form-control border-0" placeholder="Your Email" style="height: 55px;">
+                                <input type="email" class="form-control border-0" id="email" placeholder="Your Email" style="height: 55px;">
+                                <small class="text-danger errors email-error"></small>
                             </div>
                             <div class="col-12 col-sm-6">
                                 <input type="text" class="form-control border-0" placeholder="Your Mobile" style="height: 55px;">
@@ -65,7 +67,7 @@
                                 <textarea class="form-control border-0" rows="5" placeholder="Describe your problem"></textarea>
                             </div>
                             <div class="col-12">
-                                <button class="btn btn-primary w-100 py-3" type="submit">Book Appointment</button>
+                                <button class="btn btn-primary w-100 py-3" type="submit" id="bookAppointment">Book Appointment</button>
                             </div>
                         </div>
                     </form>
